@@ -1,0 +1,107 @@
+@keyframes trendingAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.ContactTop {
+    background-color: #1f252e;
+    color: white;
+    padding: 40px;
+    
+    height: 100vh;
+}
+
+.First{
+    display: flex;
+    flex-direction: row;
+   
+    gap: 300px;
+}
+
+.h1b {
+    font-family: cursive;
+}
+
+.One {
+    background-color: #1f252e;
+    padding: 20px;
+}
+
+.Cartoon {
+    height: 600px;
+    width: 500px;
+
+    transition: height 0.3s ease-out;
+    animation: trendingAnimation 2s infinite; /* Apply the animation */
+    
+}
+
+.EmailInfo {
+    margin-top: 30px;
+}
+.HomeIcon{
+    height: 80px;
+    width: 30px;
+  
+    color: orange;
+}
+
+.HomeIcon:hover{
+    border: 1px solid orange;
+    height: 40px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+/* Media query for screens up to 600px wide */
+@media screen and (max-width: 600px) {
+    .ContactTop {
+        padding: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        overflow: auto;
+    }
+    .First{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .One {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .EmailInfo {
+        margin-top: 30px;
+    }
+
+    .h1b {
+        font-size: x-small;
+    }
+    .HomeIcon{
+        width: 15px;
+        margin-bottom: 0px;
+        height: 35px;
+    }
+    .Cartoon{
+        height: 200px;
+        width: 200px;
+    }
+}
