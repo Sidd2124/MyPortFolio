@@ -61,7 +61,7 @@ const Education = () => {
 
   return (
     <div className='Education'>
-      <h1 className="section-title">My Education</h1>
+      <h1 className="section-title">My Educations</h1>
       <div className="timeline-container" >
         <Chrono items={items} mode="VERTICAL_ALTERNATING"   slideShow={true} />
       </div>

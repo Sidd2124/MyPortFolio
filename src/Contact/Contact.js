@@ -34,9 +34,18 @@ const Contact=()=>{
                 <img src={CartoonLogo} alt="Sidd" className="Cartoon"/>
             </div>
             <div><Email/>
-            
-            <h3><a className="Sidd">Reach me</a> @tsiddu805@gmail.com/
-            +91 9347877159</h3></div>
+            <div>
+            <div>
+  <h3>
+    <a className="Sidd" href="mailto:tsiddu805@gmail.com" aria-label="Send me an email">Tap to Contact me via Email📧</a>
+    <h3>Or</h3>
+    <a href="tel:+919347877159" className="Number" aria-label="Call me"> Tap to Contact me via Phone 📞</a>
+  </h3>
+</div>
+
+</div>
+
+            </div>
             
 
             </div>

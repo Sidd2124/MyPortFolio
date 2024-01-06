@@ -18,6 +18,14 @@
     height: 100vh;
 }
 
+a{
+    text-decoration: none;
+}
+.Number{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .First{
     display: flex;
     flex-direction: row;
