@@ -68,7 +68,7 @@ const Profile = () => {
       </a>
       </div>
       </div>
-      <p className='Sidd'>* Tap On Instagram and See You @ My Profile.WhatsApp and  Git as well</p>
+      <p className='Sidd'>* Tap On Instagram Icon and See You @ My Profile.WhatsApp and  Git as well</p>
     </div>
   );
 };
