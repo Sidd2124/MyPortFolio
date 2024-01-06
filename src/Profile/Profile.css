@@ -6,7 +6,7 @@
     background-color: #1F252E;
     padding: 10px;
     color: white;
-    height: 100vh;
+    
 }
 
 .ProfileDetails {
@@ -168,8 +168,11 @@
         flex-direction: column;
         gap: 0px;
     }
+   
 
     .border-container {
+        margin-top: 30px;
+        margin-bottom: 30px;
         height: 250px;
         width: 250px;
     }
@@ -179,6 +182,8 @@
         flex-direction: column;
         justify-content: space-between;
         overflow: auto;
+    height: auto;
+        gap: 0px;
         align-items: center;
     }
 
@@ -206,6 +211,7 @@
 
     .Info {
         margin: 10px;
+        
     }
 }
 
