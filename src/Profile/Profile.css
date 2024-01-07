@@ -6,6 +6,7 @@
     background-color: #1F252E;
     padding: 10px;
     color: white;
+    height: 100vh;
     
 }
 
@@ -182,7 +183,7 @@
         flex-direction: column;
         justify-content: space-between;
         overflow: auto;
-    height: auto;
+        
         gap: 0px;
         align-items: center;
     }
