@@ -41,7 +41,7 @@ const Email = (props) => {
 
   return (
     <form ref={form} onSubmit={sendEmail} className="Email">
-      <h3>Keep In Touch......</h3>
+      <h3>Share details for assistance</h3>
       <label>Name :</label>
       <div>
         <input type="text" name="from_name" placeholder="Enter Your Name" required />

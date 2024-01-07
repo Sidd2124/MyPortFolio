@@ -49,13 +49,13 @@
   /* Responsive styling for small screens */
   @media screen and (max-width: 600px) {
     .Email {
-      width: 320px;
+      width: 300px;
       margin-top: 20px;
-      height: 400px;
+      height: 350px;
     }
     .Email input,
   .Email textarea{
-    width: 300px;
+    width: 280px;
   }
   .Email input[type="submit"] {
     background-color: #3498db;

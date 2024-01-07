@@ -73,10 +73,29 @@ a{
     border-radius: 8px;
 }
 
+.Number {
+        
+    font-size: 14px;
+    background-color: white;
+    padding: 4px;
+    border-radius: 6px;
+    color: black;
+
+}
+
+@keyframes scaleUp {
+0% {
+    transform: scale(1);
+}
+100% {
+    transform: scale(1.1);
+}
+}
 /* Media query for screens up to 600px wide */
 @media screen and (max-width: 600px) {
     .ContactTop {
         padding: 10px;
+        height: 100vh;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -112,4 +131,8 @@ a{
         height: 200px;
         width: 200px;
     }
+    
+   
+    
+
 }

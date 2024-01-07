@@ -21,9 +21,7 @@ const Contact=()=>{
       <Link to="/Education" className='Details '>
         <h1 >Education</h1>
       </Link>
-      <Link to="/Experiance" className='Details'>
-        <h1>Experience</h1>
-      </Link>
+      
       <Link to="/Projects" className='Details'>
         <h1>Projects</h1>
       </Link>
@@ -33,14 +31,16 @@ const Contact=()=>{
             <div>
                 <img src={CartoonLogo} alt="Sidd" className="Cartoon"/>
             </div>
-            <div><Email/>
+            <div>
+            <a href="tel:+919347877159" className="Number" aria-label="Call me"> Tap me  to Contact  via Phone 📞</a>
+ 
+              <Email/>
             <div>
             <div>
   <h3>
-    <a className="Sidd" href="mailto:tsiddu805@gmail.com" aria-label="Send me an email">Tap to Contact me via Email📧</a>
-    <h3>Or</h3>
-    <a href="tel:+919347877159" className="Number" aria-label="Call me"> Tap to Contact me via Phone 📞</a>
-  </h3>
+    <a className="Sidd" href="mailto:tsiddu805@gmail.com" aria-label="Send me an email">Tap me  to Contact  via Email📧</a>
+    
+     </h3>
 </div>
 
 </div>

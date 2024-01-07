@@ -1,6 +1,11 @@
 import React from 'react';
 import { Chrono } from 'react-chrono';
 
+import {Link }  from 'react-router-dom'
+
+
+import { IoHomeOutline } from "react-icons/io5";
+
 import './Education.css';
 
 const Education = () => {
@@ -61,7 +66,25 @@ const Education = () => {
 
   return (
     <div className='Education'>
-      <h1 className="section-title">My Educations</h1>
+      <div className='ProfileDetails'>
+          <Link to="/"> 
+           <IoHomeOutline className='HomeIcon'/>
+          </Link>
+ 
+
+      <Link to="/Contact" className='Details'>
+        <h1>Contact</h1>
+      </Link>
+      <Link to="/Education" className='Details '>
+        <h1 >Education</h1>
+      </Link>
+     
+      <Link to="/Projects" className='Details'>
+        <h1>Projects</h1>
+      </Link>
+
+      </div>
+      <h1 className="section-title">Academic Profile</h1>
       <div className="timeline-container" >
         <Chrono items={items} mode="VERTICAL_ALTERNATING"   slideShow={true} />
       </div>

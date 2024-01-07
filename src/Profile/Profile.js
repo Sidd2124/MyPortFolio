@@ -26,9 +26,7 @@ const Profile = () => {
       <Link to="/Education" className='Details '>
         <h1 >Education</h1>
       </Link>
-      <Link to="/Experiance" className='Details'>
-        <h1>Experience</h1>
-      </Link>
+     
       <Link to="/Projects" className='Details'>
         <h1>Projects</h1>
       </Link>
