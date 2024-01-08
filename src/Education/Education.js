@@ -15,7 +15,7 @@ const Education = () => {
       title: 'Schooling',
       cardTitle: 'Chaithanya Bharathi High School',
       cardSubtitle: 'Atmakur (A),Wanaparthy Dustrict,Telanagana',
-      cardDetailedText: '5th to SSC Passed And Out in the year Of 2016 with 8.8 CGPA',
+      cardDetailedText: 'I successfully completed my Secondary School Certificate (SSC) in 2016, achieving a commendable Cumulative Grade Point Average (CGPA) of 8.8',
       media: {
         type: "IMAGE",
         source: {
@@ -25,40 +25,41 @@ const Education = () => {
       
     },    
     {
-      title: 'Schooling',
-      cardTitle: 'Chaithanya Bharathi High School',
-      cardSubtitle: 'Atmakur (A),Wanaparthy Dustrict,Telanagana',
-      cardDetailedText: '5th to SSC Passed And Out in the year Of 2016 with 8.8 CGPA',
+      title: 'Inter',
+      cardTitle: 'Jalajam Junior College',
+      cardSubtitle: 'MahabubNagar, Telanagana',
+      cardDetailedText: 'I have accomplished my intermediate studies in Commerce with a notable performance, securing a 55% overall grade',
       media: {
         type: "IMAGE",
         source: {
-          url: "i.ibb.co/fxd65Gm/Pngtree-school-building-cartoon-school-classroom-5689021.png"
+          url: "https://i.ibb.co/QFLc9Pd/Screenshot-2024-01-08-153205.png"
         }
       }
       
     },    
     {
-      title: 'Schooling',
-      cardTitle: 'Chaithanya Bharathi High School',
-      cardSubtitle: 'Atmakur (A),Wanaparthy Dustrict,Telanagana',
-      cardDetailedText: '5th to SSC Passed And Out in the year Of 2016 with 8.8 CGPA',
+      title: 'Degree',
+      cardTitle: 'B.com (Computers)',
+      cardSubtitle: 'Dilshuk Nagar,Hyderabad, Telanagana',
+      cardDetailedText: 
+      "I have earned my Bachelors degree in B.Com Computers with distinction, attaining a noteworthy Cumulative Grade Point Average (CGPA) of 7.42",
       media: {
         type: "IMAGE",
         source: {
-          url: "https://i.ibb.co/hfFNJHN/png-transparent-brown-school-school-cartoon-building-school-building-comics-angle-orange-thumbnail.png"
+          url: "https://i.ibb.co/GCpQmQq/Screenshot-2024-01-08-153343.png"
         }
       }
       
     },    
     {
-      title: 'Schooling',
-      cardTitle: 'Chaithanya Bharathi High School',
-      cardSubtitle: 'Atmakur (A),Wanaparthy Dustrict,Telanagana',
-      cardDetailedText: '5th to SSC Passed And Out in the year Of 2016 with 8.8 CGPA',
+      title: 'NxtWave CCBP',
+      cardTitle: 'specialized training in ReactJS',
+      cardSubtitle: 'Gachibowli,Hyderabad, Telanagana',
+      cardDetailedText: 'I have acquired comprehensive skills in ReactJS essential for thriving in the IT industry, and I am certified by the placement team at NxtWave',
       media: {
         type: "IMAGE",
         source: {
-          url: "i.ibb.co/fxd65Gm/Pngtree-school-building-cartoon-school-classroom-5689021.png"
+          url: "https://i.ibb.co/nCmhFwN/Screenshot-2024-01-08-153548.png"
         }
       }
       
