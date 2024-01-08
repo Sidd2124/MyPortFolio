@@ -64,9 +64,10 @@ const Profile = () => {
 <a href={Resume} download="Siddu_Reactjs-Developer" className='Resume'>
         Download Resume
       </a>
-      </div>
-      </div>
       <p className='Sidd'>* Tap On Instagram Icon and See You @ My Profile.WhatsApp and  Git as well</p>
+      </div>
+      </div>
+      
     </div>
   );
 };
