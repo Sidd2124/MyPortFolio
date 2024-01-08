@@ -35,10 +35,11 @@ const Contact=()=>{
             <a href="tel:+919347877159" className="Number" aria-label="Call me"> Tap me  to Contact  via Phone 📞</a>
  
               <Email/>
+              <a className="Sidd" href="mailto:tsiddu805@gmail.com" aria-label="Send me an email">Tap me  to Contact  via Email📧</a>
             <div>
             <div>
   <h3>
-    <a className="Sidd" href="mailto:tsiddu805@gmail.com" aria-label="Send me an email">Tap me  to Contact  via Email📧</a>
+   
     
      </h3>
 </div>
