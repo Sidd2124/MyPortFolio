@@ -27,21 +27,18 @@ const Email = (props) => {
 
       console.log(result.text);
 
-      // Reset the form only after the email has been sent successfully
       e.target.reset();
 
-      // Alert and redirect after successful email send
       alert('Message Sent Successfully');
       history.replace('/');
     } catch (error) {
       console.error(error.text);
-      // Handle the error (e.g., show an error message to the user)
-    }
+      }
   };
 
   return (
     <form ref={form} onSubmit={sendEmail} className="Email">
-      <h3>Share details for assistance</h3>
+      <h3>For Crafting interactive</h3>
       <label>Name :</label>
       <div>
         <input type="text" name="from_name" placeholder="Enter Your Name" required />

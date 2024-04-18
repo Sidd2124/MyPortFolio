@@ -6,7 +6,6 @@ import { IoHomeOutline } from "react-icons/io5";
 
 import './Profile.css';
 
-import Resume from './Resume.pdf';
 
 
 import Pic from './Sidd.jpg'
@@ -28,7 +27,7 @@ const Profile = () => {
       </Link>
      
       <Link to="/Projects" className='Details'>
-        <h1>Projects</h1>
+        <h1>Gallery</h1>
       </Link>
 
       </div>
@@ -59,12 +58,10 @@ const Profile = () => {
       <div className='Info'>
 <h3>Hi,I'm</h3>
 <h1 className='Sidd'>Sidd</h1>
-<p>I am a professional web developer. Our main goal is to help and satisfy local and global clients with web development solutions.</p>
+<h3>React js Developer</h3>
+<h3>@ Agilewit Solutions Pvt.Ltd</h3>
+<p>React JS Developer passionate about building dynamic web applications with clean code and pixel-perfect precision. #ReactJS #DeveloperLife #CodeCrafting</p>
 
-<a href={Resume} download="Siddu_Reactjs-Developer" className='Resume'>
-        Download Resume
-      </a>
-      <p className='Sidd'>* Tap On Instagram Icon and See You @ My Profile.WhatsApp and  Git as well</p>
       </div>
       </div>
       

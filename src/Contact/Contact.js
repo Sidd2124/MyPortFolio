@@ -2,9 +2,13 @@ import Email from "../Email/Email"
 
 import './Contact.css'
 
+
 import CartoonLogo from './CarttonLogo.png'
 import { Link } from "react-router-dom";
 import { IoHomeOutline } from "react-icons/io5";
+import Dail from '../Assets/Dailer.png'
+import  Insta from '../Assets/Insta.png'
+import WhatsApp from '../Assets/whatsapp.png'
 
 const Contact=()=>{
     return(
@@ -23,7 +27,7 @@ const Contact=()=>{
       </Link>
       
       <Link to="/Projects" className='Details'>
-        <h1>Projects</h1>
+        <h1>Gallery</h1>
       </Link>
 
       </div>
@@ -32,10 +36,15 @@ const Contact=()=>{
                 <img src={CartoonLogo} alt="Sidd" className="Cartoon"/>
             </div>
             <div>
-            <a href="tel:+919347877159" className="Number" aria-label="Call me"> Tap me  to Contact  via Phone 📞</a>
+              <div  className="SocialMedia">
+            <a href="tel:+919347877159"  aria-label="Call me"> <img src={Dail} className="Dialer" alt="Dial"/></a>
+            
+            <a href="https://wa.me/9347877159"  aria-label="Call me"> <img src={WhatsApp} className="Dialer" alt="Dial"/></a>
+            
+            <a href='https://www.instagram.com/mr.sidd07?igsh=MXRtNzl6ZGVvNXBxcw=='   aria-label="Call me"> <img src={Insta} className="Dialer" alt="Dial"/></a>
+            </div>
  
               <Email/>
-              <a className="Sidd" href="mailto:tsiddu805@gmail.com" aria-label="Send me an email">Tap me  to Contact  via Email📧</a>
             <div>
             <div>
   <h3>

@@ -136,3 +136,14 @@ a{
     
 
 }
+
+.Dialer{
+    height: 40px;
+}
+.SocialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    text-align: center;
+}

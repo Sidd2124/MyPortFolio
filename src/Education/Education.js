@@ -81,7 +81,7 @@ const Education = () => {
       </Link>
      
       <Link to="/Projects" className='Details'>
-        <h1>Projects</h1>
+        <h1>Gallery</h1>
       </Link>
 
       </div>
