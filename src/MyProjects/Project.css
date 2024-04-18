@@ -85,9 +85,10 @@
     background-color: #1F252E;
     padding: 20px;
     text-align: center;
-    overflow-x: auto;
-    overflow-y: auto;
+    
     height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
   
   .HomeIcon {
@@ -167,4 +168,25 @@
       width: 100%;
     }
   }
+  .PicitemsRow{
+    display: flex;
+    flex-direction: row;
+   overflow-y: auto;
+  }
+  .MainPic {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    /* Auto height to maintain aspect ratio */
+   
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .MainPic {
+      width: 100%;
+      height: 60%;     }
+}
+
+
   

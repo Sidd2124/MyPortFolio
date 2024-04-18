@@ -2,7 +2,6 @@ import Email from "../Email/Email"
 
 import './Contact.css'
 
-
 import CartoonLogo from './CarttonLogo.png'
 import { Link } from "react-router-dom";
 import { IoHomeOutline } from "react-icons/io5";
