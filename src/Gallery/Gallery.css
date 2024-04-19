@@ -35,6 +35,8 @@
     padding: 4px;
   }
 
+  
+
   .preview-buttons{
     width: 250px;
   }
@@ -84,12 +86,13 @@
   .MainProject {
     background-color: #1F252E;
     padding: 20px;
-    text-align: center;
-    
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
+ 
   
   .HomeIcon {
     font-size: 2rem;
@@ -153,6 +156,7 @@
     .MainProject {
       overflow-x: auto;
       overflow-y: auto;
+      
     }
   
     .ProjectContainer {
@@ -173,13 +177,17 @@
     flex-direction: row;
    overflow-y: auto;
   }
+ 
   .MainPic {
-    width: 100%;
-    height: auto;
+    width:600px; 
+    height: 65vh;
     border-radius: 6px;
-    /* Auto height to maintain aspect ratio */
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
+
 
 /* Media queries for responsiveness */
 @media only screen and (max-width: 768px) {

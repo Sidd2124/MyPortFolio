@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 import GalleryItem from '../GalleryItems/GalleryItem'
 
-import './Project.css'
+import './Gallery.css'
 
 import Pic1 from '../Assets/Sidd1.jpg'
 import Pic2 from '../Assets/Sidd2.jpg'
@@ -104,7 +104,7 @@ const Pics = [
   },
 ]
 
-const Projects = () => {
+const Gallery = () => {
   const [MainPic,setmainPic]=useState(Pic1)
   const [picInfo,setpicInfo]=useState("Pic1")
   const PicsUpdate=(First,Second)=>{
@@ -120,13 +120,13 @@ const Projects = () => {
 
 
         <Link to="/Contact" className='Details'>
-          <h1>Contact</h1>
+          <h1>Details </h1>
         </Link>
         <Link to="/Education" className='Details '>
           <h1 >Education</h1>
         </Link>
 
-        <Link to="/Projects" className='Details'>
+        <Link to="/Gallery" className='Details'>
           <h1>Gallery</h1>
         </Link>
 
@@ -141,4 +141,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default Gallery

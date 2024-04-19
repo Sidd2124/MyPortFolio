@@ -10,9 +10,7 @@ import Contact from './Contact/Contact'
 
 import Education from './Education/Education'
 
-import Experiance from './Experiance/Experiance'
-
-import Projects from './MyProjects/Projects'
+import Gallery from './Gallery/Gallery'
 
 import NothingFound from './NothingFound/NothingFound'
 
@@ -25,8 +23,7 @@ function App() {
   <Route exact path="/" component={Profile}/>
   <Route exact path="/Contact" component={Contact}/>
   <Route exact path="/Education" component={Education}/>
-  <Route exact path="/Experiance" component={Experiance}/>
-  <Route exact path="/Projects" component={Projects}/>
+  <Route exact path="/Gallery" component={Gallery}/>
   <Route exact path="/NothingFound" component={NothingFound}/>
   <Redirect to="/NothingFound"/>
   </Switch>

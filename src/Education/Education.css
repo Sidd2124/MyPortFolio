@@ -19,7 +19,7 @@
   opacity: 0;
   transform: translateY(-20px);
   animation: fadeInUp 1s ease-in-out forwards, slideIn 0.8s ease-in-out 0.2s forwards;
-  box-shadow: 0 4px 8px rgba(160, 145, 145, 0.1); /* Subtle box shadow */
+  box-shadow: 0 4px 8px rgba(160, 145, 145, 0.1); 
 }
 
 @keyframes fadeInUp {

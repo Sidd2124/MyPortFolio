@@ -20,13 +20,13 @@ const Profile = () => {
  
 
       <Link to="/Contact" className='Details'>
-        <h1>Contact</h1>
+        <h1>Details</h1>
       </Link>
       <Link to="/Education" className='Details '>
         <h1 >Education</h1>
       </Link>
      
-      <Link to="/Projects" className='Details'>
+      <Link to="/Gallery" className='Details'>
         <h1>Gallery</h1>
       </Link>
 
