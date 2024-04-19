@@ -8,7 +8,7 @@ import GalleryItem from '../GalleryItems/GalleryItem'
 
 import './Gallery.css'
 
-import Pic1 from '../Assets/Sidd1.jpg'
+import Pic1 from '../Assets/Sidd17.jpg'
 import Pic2 from '../Assets/Sidd2.jpg'
 import Pic3 from '../Assets/Sidd3.jpg'
 import Pic4 from '../Assets/Sidd4.jpg'
@@ -25,7 +25,7 @@ import Pic14 from '../Assets/Sidd14.JPG'
 import Pic15 from '../Assets/Sidd15.JPG'
 import Pic16 from '../Assets/Sidd16.JPG'
 import Pic17 from '../Assets/Sidd17.jpg'
-import Pic18 from '../Assets/Sidd18.jpg'
+import Pic18 from '../Assets/Sidd1.jpg'
 
 
 
