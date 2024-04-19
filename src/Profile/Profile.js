@@ -10,6 +10,7 @@ import './Profile.css';
 
 import Pic from './Sidd.jpg'
 
+
 const Profile = () => {
   return (
     <div className='Main'>

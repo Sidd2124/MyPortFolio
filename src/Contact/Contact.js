@@ -45,9 +45,14 @@ const Contact = () => {
 
           <div className="PerSonalInfo">
             <h1>Information</h1>
-            <p>Name:Sidd</p>
-            <p>Salary:25000</p>
-            <p>Designation: Reactjs Developer @ Agilewits Solution Pvt.Ltd</p>
+            <p>Name: Sidd</p>
+            <p>Salary: 25000</p>
+            <p>Designation: Reactjs Developer </p>
+            <p>Company: Agilewits Solution Pvt.Ltd</p>
+            <p>Siblings: One Younger Brother</p>
+            <p>Own Houses in Allipur & Hyderabad</p>
+            <p>5 Acres Of Land Includeing </p>
+            <p>{"(1.5 దేవుడి మాన్యం)"}  In Allipur</p>
           </div>
           <div>
             <div>
