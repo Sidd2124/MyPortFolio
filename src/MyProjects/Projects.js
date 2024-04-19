@@ -105,8 +105,8 @@ const Pics = [
 ]
 
 const Projects = () => {
-  const [MainPic,setmainPic]=useState(Pic17)
-  const [picInfo,setpicInfo]=useState("Pic17")
+  const [MainPic,setmainPic]=useState(Pic1)
+  const [picInfo,setpicInfo]=useState("Pic1")
   const PicsUpdate=(First,Second)=>{
     setpicInfo(First)
     setmainPic(Second)
