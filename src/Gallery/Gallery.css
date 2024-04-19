@@ -193,7 +193,16 @@
 @media only screen and (max-width: 768px) {
     .MainPic {
       width: 100%;
-      height: 60%;     }
+      height: 60%;    
+    
+    }
+
+      .PicitemsRow{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+       overflow-y: auto;
+      }
 }
 
 
